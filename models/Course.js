@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import Student from './Student.js'
+
 
 
 const schema = new mongoose.Schema({
