@@ -100,8 +100,8 @@ function sendResourceNotFound(req, res) {
     error: [
       {
         status: '404',
-        title: 'Resource does nto exist',
-        description: `We could not find a person with id: ${req.params.id}`,
+        title: 'Resource does not exist',
+        description: `We could not find a student with id: ${req.params.id}`,
       },
     ],
   })
